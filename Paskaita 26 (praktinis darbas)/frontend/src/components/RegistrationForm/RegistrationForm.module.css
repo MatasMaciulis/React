@@ -1,0 +1,92 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 1em;
+  width: 1100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid 1px #525252;
+  border-radius: 8px;
+}
+
+.sign_in {
+  padding: 10px 0px;
+  margin: 0px;
+  font-weight: 400;
+}
+
+.have_an_accaunt {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+.loginContainer > button {
+  width: 100%;
+  margin-top: 15px;
+  color: #000000;
+  background-color: #f2877d;
+  border: solid 1px #010101;
+  border-radius: 5px;
+  padding: 15px ;
+  cursor: pointer;
+}
+
+.form > button:hover {
+  opacity: 0.9;
+  background-color: #d75246;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 7px 10px;
+  border-radius: 5px;
+}
+
+.wrapper.valid {
+  border-color: rgb(13, 0, 128); /* spalva tinkamam atvejui */
+}
+
+.wrapper.invalid {
+  border-color: red; /* spalva netinkamam atvejui */
+}
+
+.input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  outline: none;
+  margin: 0 7px;
+  font-size: 16px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social > button {
+  width: 200px;
+}
+
+.imageContainer {
+  float: left; /* Paveiksliukas bus kairėje */
+  margin-right: 20px; /* Galite keisti pagal savo poreikius */
+}
+
+.registrationImage {
+  width: 600px; /* Galite keisti pagal savo poreikius */
+  height: auto; /* Galite keisti pagal savo poreikius */
+}

@@ -1,0 +1,40 @@
+/* Button.module.css */
+
+.button {
+    padding: 7px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 3px;
+  }
+  
+  .primary {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .secondary {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    color: #e8e8e8;
+  }
+  
+  .google {
+    background-color: #e29696;
+    color: #000000;
+  }
+  
+  .button:hover {
+    opacity: 0.9;
+  }
+  
+
+  
