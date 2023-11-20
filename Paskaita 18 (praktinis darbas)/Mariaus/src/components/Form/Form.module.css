@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1em;
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid 1px #525252;
+  border-radius: 8px;
+
+}
+
+.form > button {
+  margin-top: 15px;
+}

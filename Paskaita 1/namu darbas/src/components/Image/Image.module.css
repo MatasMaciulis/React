@@ -1,0 +1,13 @@
+.container {
+    width: 500px;
+}
+
+.container > img {
+    width: 100%;
+} 
+
+.container > p {
+    color: rgb(202, 0, 195);
+    font-size: 20px;
+    font-weight: bolder;
+}

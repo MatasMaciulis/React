@@ -1,0 +1,23 @@
+.postList {
+  display: flex;
+
+  margin: 20px auto;
+  width: 90%;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 20px;
+  justify-content: center;
+}
+.postList h4 {
+  width: 150px;
+  border: 1px solid grey;
+  padding: 5px;
+  background-color: beige;
+  border-radius: 15px;
+  height: 100px;
+}
+.postListContainer h1 {
+  text-align: center;
+  color: blue;
+}

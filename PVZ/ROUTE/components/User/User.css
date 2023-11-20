@@ -1,0 +1,13 @@
+html, body {
+    overflow: hidden; /* Norint išvengti puslapio slinkimo */
+}
+
+.centered-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Užtikrina, kad elementas užimtų viso ekrano aukštį */
+    margin: 0px;
+    padding: 0px;
+  }
+  

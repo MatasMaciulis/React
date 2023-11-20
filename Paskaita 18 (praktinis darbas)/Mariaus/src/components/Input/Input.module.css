@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #5c5c5c;
+  padding: 7px 10px;
+  border-radius: 5px;
+  transition: border-color 0.3s ease; /* Pridedame pereinamąjį efektą spalvos pakeitimui */
+}
+
+.wrapper:focus-within {
+  border-color: #4f4fc4; /* Jūsų pasirinkta rėmo spalva, kai bet kuris vaikinis elementas yra įfokusuotas */
+}
+
+.input {
+  width: 100%;
+  border: none;
+  outline: none;
+  margin: 0 7px;
+  font-size: 16px;
+  }
+
+.text {
+  padding: auto;
+  font-size: 12px;
+  color: rgb(193, 69, 69);
+  padding: 0px;
+  margin: 0px;
+}
+
+.validationMessage {
+  height: 40px;
+
+}

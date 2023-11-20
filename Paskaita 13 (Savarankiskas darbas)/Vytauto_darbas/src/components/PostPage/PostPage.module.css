@@ -1,0 +1,23 @@
+.postPage {
+  display: flex;
+  flex-direction: column;
+  margin: 120px auto;
+  width: 50%;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: beige;
+}
+
+.postPage a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: green;
+}

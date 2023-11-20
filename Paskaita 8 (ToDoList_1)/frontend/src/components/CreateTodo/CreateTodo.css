@@ -1,0 +1,13 @@
+  .input {
+    color: rgb(16, 10, 70);
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .input-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
